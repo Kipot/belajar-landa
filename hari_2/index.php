@@ -52,7 +52,7 @@ $explode = implode(" ", $str);
 // json_encode()
 // echo json_encode($siswa);
 
-// json_decode()
+// json_decode() ==
 // $json = json_encode($siswa);
 // var_dump(json_decode($siswa));
 
