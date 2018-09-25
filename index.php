@@ -21,11 +21,11 @@
 // var_dump($siswa);
 
 // Array Assosiative
-$siswa["nama"]  = "NAUFAL";
-$siswa["nama"]  = "YUSRON";
-
-$siswa["kelas"] = "A 12";
-$siswa["kelas"] = "B 12";
+// $siswa["nama"]  = "NAUFAL";
+// $siswa["nama"]  = "YUSRON";
+//
+// $siswa["kelas"] = "A 12";
+// $siswa["kelas"] = "B 12";
 
 
 // Array Assosiative & Multidimensi
