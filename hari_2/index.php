@@ -20,7 +20,8 @@
 
 //  - str_replace() =================
 // str_replace(find,replace,string)
-// echo str_replace("world","Peter","Hello world!");
+$string = "HALO semuanya teman teman";
+echo str_replace("teman","Bro", $string);
 
 // 	- explode() =============
 $str = "Hello world. It's a beautiful day.";

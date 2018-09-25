@@ -75,4 +75,18 @@
 //   echo "INI BUKAN ARRAY";
 // }
 
+$siswa = array(
+  // "Key" => value ["key" => "value", "key_2" => "value2"]
+  "SMP 12" => [ "alamat" => "value", "no_tlp" => 12312312],
+  "SMP 13" => [ "alamat" => "value2", "no_tlp" => 1111111],
+  "SMA 12" => [ "alamat" => "asd", "no_tlp" => 1111111],
+  "SMA 13" => [ "alamat" => "dsa", "no_tlp" => 1111111]
+);
+
+foreach ($siswa as $key => $value) {
+  if (substr($key, 0, 3) == "SMA") {
+    echo $key."<br>";
+  }
+}
+
  ?>
